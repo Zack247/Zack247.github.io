@@ -95,6 +95,273 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* a {
+    text-decoration: none;
+}
+
+/*Start sticky_nav*/
+
+.sticky-nav-wrapper {
+  height: 40px;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  transition: all 300ms ease-out;
+  z-index: 400;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  margin: 1rem;
+  padding: .25rem 0;
+  text-decoration: none;
+  color: black;
+}
+
+/*nav .active {
+  border-top: 2px solid #F07057;
+}*/
+
+.scrolled {
+  /* Step 1: Add styles for fixed nav */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*End sticky_nav*/
+
+
+.container {
+    width: 100%;
+    height: 450px;
+}
+h1 a {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Syncopate', 'sans-serif';
+    font-weight: 400;
+    position: absolute;
+    padding-top: 35px;
+    margin-left: 50px;
+    font-size: 45px;
+}
+
+.livingRoom {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+}
+
+.hamburger img {
+     width: 40px;
+     height: 40px;
+     float: right;
+     margin-right: 10px;
+     margin-top: 20px;
+     position: relative;
+}
+
+.ourMissionIcon a img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.downArrow img {
+    width: 60px;
+    height: 60px;
+    margin-left: 520px;
+    position: relative;
+} 
+
+#nav_menu li {
+    display: hidden;
+    list-style-type: none;
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    display: hidden;
+}
+
+a {
+    color: black;
+    font-family: 'Syncopate';
+    font-size: 15px;
+}
+
+.about_us img {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    margin: 0;
+}
+
+.about_us h2 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /*margin-top: 40px;*/
+    padding-top: 70px;
+    padding-left: 70px;
+    font-family: 'Syncopate';
+    font-size: 21px;
+    word-spacing: 15px;
+    margin-left: 745px;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.about_us h5 {
+    font-size: 45px;
+    color: white;
+    position: relative;
+    opacity: 0.8;
+    margin-left: 410px;
+    margin-top: 325px;
+    margin-bottom: 0;
+    line-height: 0;
+    
+}
+
+.about_us p {
+   font-size: 25px;
+   color: white;
+   position: relative;
+   padding: 12px 168px;
+   opacity: 0.9;
+   margin-left: 212px;
+   line-height: 1.225;
+}
+
+/*.learnMore {
+    border: 1px solid white;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 300px;
+    width: 140px;
+    height: 25px;
+    padding-left: 8px;
+    padding-top: 8px;
+    color: black;
+    font-size: 15px;
+}*/
+
+.ourShop h4 {
+    font-family: 'Syncopate';
+    font-size: 40px;
+    word-spacing: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px gray;
+    
+}
+.ourShop img {
+    width: 34%;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.ourShop img:hover {
+    opacity: 0.9;
+    transition: all s ease-in-out;
+}
+
+.ourShop p {
+    font-family: 'Syncopate';
+    font-size: 15px;
+    margin-left: 80px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.ourShop .p1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.ourShop .p2 {
+    margin-top: 35px;
+    margin-left: 800px;
+}
+
+.ourShop .tables {
+    margin-top: 100px;
+}
+
+.ourShop .outdoor {
+    margin-left: 30%;
+    margin-top: 40px;
+    transform: skew(-17deg);
+}
+
+.ourShop .kitchen {
+    margin-top: 40px;
+}
+
+.contact_us {
+    width: 100%;
+    background-color: #003366;
+    opacity: 0.9;
+    height: 390px;
+}
+
+.contact_us h6 {
+    font-family: 'Syncopate';
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 0;
+    padding-top: 40px;
+    text-shadow: 0.5px 0.5px 1px white;
+}
+
+.contact_us p {
+    font-family: 'Syncopate';
+    font-weight: 400;
+    margin: 50px;
+    color: white;
+}
+
+.contact_us .search_bar {
+    font-family: 'Syncopate';
+    font-weight: 400;
+    margin: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    width: 100%;
+    background-color: white;
+    font-size: 10px;
+    color: #191970;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: underline;
+    text-align: center;
+}
 
 
 
@@ -102,6 +369,29 @@ textarea {
 
 
 
+
+/*Sarah's youtube Hamburger Video*/
+/*.hamburger {
+    cursor: pointer;
+    padding: 15px;
+    display: block;
+}
+*/
+/*.line {
+    border-bottom: 4px solid white;
+    width: 35px;
+    margin-bottom: 6px;
+}
+
+.line:last-child {
+    margin-bottom: 0;
+}
+
+nav li {
+    width: 100%;
+    
+}
+*/
 
 
 
@@ -186,6 +476,41 @@ textarea {
 .clearfix:after {
     clear: both;
 }
+
+
+
+/*Salvattore TEST CSS code*/
+
+/* Configurate salvattore with media queries */
+@media screen and (max-width: 450px) {
+    #timeline[data-columns]::before {
+        content: '1 .column';
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    #timeline[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+    #timeline[data-columns]::before {
+        content: '3 .column.size-1of3';
+    }
+}
+
+@media screen and (min-width: 851px) {
+    #timeline[data-columns]::before {
+        content: '4 .column.size-1of4';
+    }
+}
+
+
+/*END- Salvattore TEST*/
+
+
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

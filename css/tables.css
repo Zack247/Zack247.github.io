@@ -1,0 +1,60 @@
+
+
+img {
+	float: left;
+    padding: 0.5% 2%;
+}
+
+
+
+header h2 {
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: 'Syncopate';
+	text-align: center;
+}
+
+.tablesContainer img {
+	width: 36%;
+	margin: 5%;
+}
+
+
+/*Salvatorre Styles*/
+img {
+    width: 25%;
+}
+
+article h3 {
+	text-align: center;
+	font-family: 'Syncopate';
+
+}
+
+
+
+#timeline {
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 2%;
+}
+
+/* Base styles */
+.column {
+    float: left;
+}
+.size-1of4 {
+    width: 10%;
+}
+.size-1of3 {
+    width: 30%;
+}
+.size-1of2 {
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+/*salvatorre styles end*/
