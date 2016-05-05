@@ -1,0 +1,154 @@
+Psuedo Code - Final Project
+
+
+HOME PAGE
+
+-----Background-Image-Carousel---
+
+
+Listen for when the user enters our 'homePage'
+
+	-Once the user has been on the page for 15seconds, 
+
+	-Advance the background image to the next image.
+
+	-run repeatedly 
+
+	
+
+
+----DownArrow----
+
+Listen for click/ page progression- When the user clicks on the down arrow.
+	
+		Advance user to the nextwindow underneath 'ourStory'
+
+	or  
+		when the user advances down the page more than half the window, advance user to 'ourStory'.
+
+	else
+		wait for click/progression on page. 
+
+
+
+----Our Shop----
+
+Listen for the user's cursor to drag across image
+
+	if 
+		cursor is within the desired field
+
+		-slide transparent orange box over image
+			- simulatneously slide 'text' to describe what the category is.
+
+	else
+
+		- ease-out once the user has exceeded the 'img' field. 
+
+
+-----OUR SHOP with all product categories-----
+
+when the user resizes the window size
+
+	cascade images to auto stack into place.
+
+	else
+
+		do nothing.
+
+
+
+----Product Details Page----
+
+
+A-  when the user reaches the bottom of the page
+
+			-display hidden nav
+
+		else
+
+			wait for the user to reach the bottom of the page. 
+
+B- when the user clicks on solid white circle
+
+	 advance the product details to the next 'detail'
+
+	 if
+	 	user reaches the max number of details, return to the first item detail.
+
+
+
+---Sticky Nav- HOME PAGE
+
+when the user advances further than 'ourStory'
+
+	move 'nav' with the window staying in a fixed position to the top
+
+	if
+		user regresses position further up the page into ourStory, remove 'sticky nav'
+
+	else
+
+		run until the user reaches the bottom of the page.
+
+	if
+		user reaches the bottom of the page, show sticky nav at the bottom of the page. 
+
+
+
+
+
+
+
+---STICKY NAV----
+
+when the user advances further than the header
+
+	move 'nav' with the window staying in a fixed position on top
+
+	else
+
+		wait for the user to exceed header height.
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
