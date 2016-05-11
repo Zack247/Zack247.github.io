@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    background-color: black;
+}
 
 img {
 	float: left;
@@ -12,22 +18,25 @@ header h2 {
 	text-decoration: underline;
 	font-family: 'Syncopate';
 	text-align: center;
+    color: white;
 }
 
-.tablesContainer img {
+/*.tablesContainer img {
 	width: 36%;
 	margin: 5%;
-}
+}*/
 
 
 /*Salvatorre Styles*/
 img {
-    width: 25%;
+    width: 31%;
 }
 
 article h3 {
 	text-align: center;
 	font-family: 'Syncopate';
+    color: white;
+    text-decoration: underline;
 
 }
 
@@ -56,5 +65,7 @@ article h3 {
 
 h2 {
     text-align: center;
+    color: white;
+    text-decoration: 2px underline;
 }
 /*salvatorre styles end*/
