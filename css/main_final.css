@@ -189,7 +189,11 @@ h1 a {
     width: 60%;
 }
 
-
+.carousel-caption, h5 {
+  padding: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
 /*Sticky NAV*/
 
@@ -229,17 +233,17 @@ nav a {
 }
 /*our Shop*/
 
-
 .ourShop img {
-    width: 34%;
+    width: 360px;
+    height: 300px;
     margin: 0;
     margin-left: 10%;
 }
 
-.ourShop img:hover {
+/*.ourShop img:hover {
     opacity: 0.9;
     transition: all s ease-in-out;
-}
+}*/
 
 .ourShop p {
     font-family: 'Syncopate';
@@ -272,6 +276,28 @@ nav a {
 .ourShop .kitchen {
     margin-top: 40px;
 }
+
+/*.overlay-wrapper {
+  position: relative;
+  width: 360px;
+}*/
+
+/*.overlay {
+  width: 400px;
+  height: 300px;*/
+
+  /*background-color: red;*/
+  /*opacity: 0.5;*/
+/*  position: absolute;
+  top: 0;
+  transition: opacity 400ms ease-in-out;
+}*/
+
+/*.overlay-wrapper:hover .overlay {
+  opacity: 1;
+}
+*/
+
 
 /*location*/
 .location_image {
@@ -413,6 +439,7 @@ footer a {
   color: white;
   font-family: 'Syncopate';
   font-size: 15px;
+  margin-left: 30%;
   /*text-decoration: none;*/
 }
 
