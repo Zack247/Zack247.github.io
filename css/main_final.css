@@ -186,6 +186,7 @@ h1 a {
 
 .carousel-inner img {
     opacity: 0.95;
+    filter: alpha(opacity=95);
     width: 60%;
 }
 
@@ -219,7 +220,8 @@ h1 a {
 nav {
   width: 100%;
   text-align: center;
-  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;
   z-index: 400;
   font-family: 'Syncopate';
 }
@@ -236,7 +238,9 @@ nav li {
 }
 nav a {
   display: inline-block;
+  margin: 16px;
   margin: 1rem;
+  padding: 4px 0;
   padding: .25rem 0;
   text-decoration: none;
   color: white;
@@ -283,7 +287,9 @@ nav a {
 .ourShop .outdoor {
     margin-left: 30%;
     margin-top: 40px;
-    transform: skew(-17deg);
+    -webkit-transform: skew(-17deg);
+        -ms-transform: skew(-17deg);
+            transform: skew(-17deg);
 }
 
 .ourShop .kitchen {
@@ -316,6 +322,7 @@ nav a {
 .location_image {
     margin: 12% 0;
     opacity: 0.65;
+    filter: alpha(opacity=65);
     position: absolute;
     width: 100%;
     margin-left: 5.3%;
@@ -548,25 +555,25 @@ footer p {
 
 /* Configurate salvattore with media queries */
 @media screen and (max-width: 450px) {
-    #timeline[data-columns]::before {
+    #timeline[data-columns]:before {
         content: '1 .column';
     }
 }
 
 @media screen and (min-width: 451px) and (max-width: 700px) {
-    #timeline[data-columns]::before {
+    #timeline[data-columns]:before {
         content: '2 .column.size-1of2';
     }
 }
 
 @media screen and (min-width: 701px) and (max-width: 850px) {
-    #timeline[data-columns]::before {
+    #timeline[data-columns]:before {
         content: '3 .column.size-1of3';
     }
 }
 
 @media screen and (min-width: 851px) {
-    #timeline[data-columns]::before {
+    #timeline[data-columns]:before {
         content: '4 .column.size-1of4';
     }
 }
@@ -588,7 +595,6 @@ footer p {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
